@@ -5,5 +5,5 @@
 #define MIRYOKU_MAPPING_PINKIE_STAGGER
 
 #include "../miryoku/custom_config.h"
-#include "../miryoku/mapping/60/manos60.h"
+#include "../miryoku/mapping/60/manos_split.h"
 #include "../miryoku/miryoku.dtsi"
