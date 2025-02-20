@@ -4,7 +4,10 @@
 
 #pragma once
 
-#include "miryoku_layer_alternatives.h"
+#if !defined(MIRYOKU_KEYS_60)
+  #include "miryoku_layer_alternatives.h"
+#else
+  #include "miryoku_layer_alternatives_60.h"
 
 #if !defined(MIRYOKU_LAYER_BASE)
   #if defined (MIRYOKU_LAYERS_FLIP)
@@ -114,6 +117,13 @@
 #endif
 #if !defined(MIRYOKU_LAYERMAPPING_EXTRA)
   #define MIRYOKU_LAYERMAPPING_EXTRA MIRYOKU_MAPPING
+#endif
+
+#if !defined(MIRYOKU_LAYER_GAME)
+  #define MIRYOKU_LAYER_GAME MIRYOKU_ALTERNATIVES_GAME
+#endif
+#if !defined(MIRYOKU_LAYERMAPPING_GAME)
+  #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 #endif
 
 #if !defined(MIRYOKU_LAYER_TAP)

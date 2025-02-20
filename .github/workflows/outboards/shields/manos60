@@ -1,0 +1,8 @@
+# Copyright 2025 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=ManosMpampis/zmk-config-split5x6
+outboard_ref=master
+outboard_from=config/boards/shields/manos_split
+outboard_to=boards/shields/manos_split
+
