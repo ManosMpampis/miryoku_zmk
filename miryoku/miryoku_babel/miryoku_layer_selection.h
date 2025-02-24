@@ -8,6 +8,7 @@
   #include "miryoku_layer_alternatives.h"
 #else
   #include "miryoku_layer_alternatives_60.h"
+#endif
 
 #if !defined(MIRYOKU_LAYER_BASE)
   #if defined (MIRYOKU_LAYERS_FLIP)
